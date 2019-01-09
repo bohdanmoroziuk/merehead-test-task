@@ -1,0 +1,20 @@
+.root {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 2px solid #2ecc71;
+
+    color: #181818;
+}
+
+.root + .root {
+    margin-top: 1rem;
+}
+
+.fullname {
+    font-size: 0.95rem;
+}
+
+.desc {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}

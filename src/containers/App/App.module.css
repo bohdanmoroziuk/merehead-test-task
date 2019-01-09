@@ -1,0 +1,23 @@
+.root {
+    --max-width: 524px;
+    --gutter: 0.5rem;
+}
+
+.root {
+    max-width: var(--max-width);
+    width: 100%;
+    padding: 0 var(--gutter);
+    margin: var(--gutter) auto 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 490px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
